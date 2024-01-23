@@ -36,6 +36,7 @@ def deQueue():
         value = q[front]
         front = (front+1) % len(q)
         qSize -=1
+        print(value)
         return value
 
 
@@ -58,14 +59,17 @@ print("Q Size: ", qSize)
 
 
 # Test Case 3: Dequeue elements
-print(deQueue())  # Output should be "A"
-print(deQueue())  # Output should be "B"
+deQueue()  # Output should be "A"
+deQueue()   # Output should be "B"
 print(q)
 print("Q Size: ", qSize)
 
 
 # Test Case 4: Attempt to dequeue when the queue is empty
-print(deQueue())  # Output should be "Error: Queue Empty"
+deQueue()  
+deQueue() 
+deQueue() 
+deQueue() # Output should be "Error: Queue Empty"
 print(q)
 print("Q Size: ", qSize)
 
