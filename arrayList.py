@@ -1,3 +1,14 @@
+'''
+1 traverse a linked list
+2 add to linked list (need something to check the array is not full)
+3 delete from linked list
+4 Extension1 - keeping track of space
+5 Extension2 - produce a simple menu system for your linked list array approach
+
+add comments
+refactor your code to make it more maintainable - i.e. functions / procedures
+'''
+
 head = 0
 data = 0
 pointer =1
